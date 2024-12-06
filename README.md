@@ -21,15 +21,16 @@ Mock API endpoints for user and role management to simulate real-time CRUD opera
 
 ## Technologies Used
 
-React.js - Frontend library for building the user interface.
-Styled Components or CSS Modules - material UI
-Getting Started
+1. React.js - Frontend library for building the user interface.
+2. Styled Components or CSS Modules - material UI
+
+## Getting Started
 Follow the steps below to get the project up and running on your local machine.
 
-### `git clone https://github.com/yourusername/admin-dashboard.git`
+### `git clone https://github.com/sayali-barkul/Role-Based-Access-Control.git`
 cd admin-dashboard
 
-Install dependencies
+### Install dependencies
 Make sure you have Node.js and npm installed. Run the following command to install all required dependencies:
 
 ### `npm install`
