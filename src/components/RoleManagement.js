@@ -73,7 +73,7 @@ const RoleManagement = () => {
     }
 
     const response = await createRole(newRole);
-    setRoles([...roles, response.data]);
+    setRoles(response.data);
     handleCloseDialog();
     showSnackbar('Role added successfully!');
   };

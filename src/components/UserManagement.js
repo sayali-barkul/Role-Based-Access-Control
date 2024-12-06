@@ -75,7 +75,7 @@ const UserManagement = () => {
     }
 
     const response = await createUser(newUser);
-    setUsers(prevUsers => [...prevUsers, response.data]);
+    setUsers(response.data);
     handleCloseDialog();
     showSnackbar('User added successfully!');
   };

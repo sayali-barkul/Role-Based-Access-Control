@@ -36,7 +36,7 @@ const users = [
       setTimeout(() => {
         const newUser = { ...userData, id: users.length + 1 };
         users.push(newUser);
-        resolve({ data: newUser });
+        resolve({ data: users });
       }, 500);
     });
   };
@@ -86,7 +86,7 @@ export const createRole = async (roleData) => {
       setTimeout(() => {
         const newRole = { ...roleData, id: roles.length + 1 };
         roles.push(newRole);
-        resolve({ data: newRole });
+        resolve({ data: roles });
       }, 500);
     });
   };
